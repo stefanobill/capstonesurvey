@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    const urls = [
+      "https://docs.google.com/forms/d/e/1FAIpQLSeQp32w8TM9UsMuUbXWq7avW6BcnhgL5N1LYKDjADXgnwUZVQ/viewform?usp=dialog",
+      "https://docs.google.com/forms/d/e/1FAIpQLSe50GOmtDFYVZXTvyekMKpjRtJeVqM2OQB3loj-vZTDDpStGQ/viewform?usp=dialog",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfRDqyhU-xMw8AyBZSJRSJK_G921HUuTxaixhgDFJBBk9qWzA/viewform?usp=dialog"
+    ];
+
+    const randomUrl = urls[Math.floor(Math.random() * urls.length)];
+    window.location.href = randomUrl;
+  </script>
+</head>
+<body>
+Redirecting you to the form...
+</body>
+</html>
